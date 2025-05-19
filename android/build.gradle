@@ -35,5 +35,7 @@ android {
         implementation 'net.sourceforge.streamsupport:android-retrofuture:1.7.4'
 
     }
+
+    namespace 'com.example.flutter_media_metadata'
     
 }
