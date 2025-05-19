@@ -46,7 +46,7 @@ public class MetadataRetriever extends MediaMetadataRetriever {
     return metadata;
   }
 
-  public byte[] getAlbumArt() {
-    return getEmbeddedPicture();
-  }
+  // public byte[] getAlbumArt() {
+  //   return getEmbeddedPicture();
+  // }
 }

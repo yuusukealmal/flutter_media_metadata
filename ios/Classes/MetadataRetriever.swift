@@ -19,7 +19,7 @@ protocol MetadataRetrieverProtocol {
   func getAuthorName() -> String?
   func getWriterName() -> String?
   func getDiscNumber() -> String?
-  func getAlbumArt() -> Data?
+  // func getAlbumArt() -> Data?
 }
 
 public class MetadataRetriever {
@@ -157,7 +157,7 @@ public class MetadataRetriever {
       as? String
   }
 
-  public func getAlbumArt() -> Data? {
-    return preferredRetriever?.getAlbumArt()
-  }
+  // public func getAlbumArt() -> Data? {
+  //   return preferredRetriever?.getAlbumArt()
+  // }
 }

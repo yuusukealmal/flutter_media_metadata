@@ -38,7 +38,7 @@ public class FlutterMediaMetadataPlugin implements FlutterPlugin, MethodCallHand
           retriever.setFilePath(filePath);
           final HashMap<String, Object> response = new HashMap<String, Object>();
           response.put("metadata", retriever.getMetadata());
-          response.put("albumArt", retriever.getAlbumArt());
+          // response.put("albumArt", retriever.getAlbumArt());
           retriever.release();
           new Handler(Looper.getMainLooper())
               .post(new Runnable() {

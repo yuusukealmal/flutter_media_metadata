@@ -22,7 +22,7 @@ public class FlutterMediaMetadataPlugin: NSObject, FlutterPlugin {
 
         var response: [String: Any] = [:]
         response["metadata"] = retriever.getMetadata()
-        response["albumArt"] = retriever.getAlbumArt()
+        // response["albumArt"] = retriever.getAlbumArt()
 
         DispatchQueue.main.async {
           result(response)
